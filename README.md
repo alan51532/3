@@ -1,6 +1,6 @@
 # 3
 Парсер цены пшеница 
-
+""" ниже идут слешы закрытого счетчика для проверки работы цикла. Кому надо можете проверить переодичность запорсов """
 import requests
 from urllib.request import urlopen
 from lxml import etree
@@ -12,7 +12,7 @@ import threading
 ##cont = 0
 
 def run_parser():
-##    global cont
+##    global cont 
 
     while True:
         url = 'https://rif-rostov.ru/price/filter/127/0/0/single/'
